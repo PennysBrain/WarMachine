@@ -9,7 +9,6 @@ namespace WARMachine.Events
 
         private void OnMouseDown()
         {
-            Debug.Log("this was click");
             Event.Raise();
         }
     }
